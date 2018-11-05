@@ -69,9 +69,12 @@ nav {
 .logo {
 	float: left;
 	border-top:  solid darkorange;
+	line-height: 100%;
+	text-align: left;
 	clear: both;
 	padding-top: 22px;
 	margin-top: 0;
+	text-transform: uppercase;
 }
 .btn {
 	text-align: right;
