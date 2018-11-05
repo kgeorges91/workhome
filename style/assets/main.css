@@ -2,47 +2,76 @@ html {
 	color: #555;
 }
 body {
+	background-color: #466368;
+	background: linear-gradient(to right bottom, #648880, #293f50);
+	color: :#888;
 	font-size: 14px;
 	line-height: 150%;
-	width: 960px;
 	text-align: center;
 }
-.grid {
+.grid, .foot {
 	margin: 0 auto;
 	width: 960px;
 }
 h1 {
+	color: white;
 	font-size: 50px;
 	font-weight: 100;
 	font-family:"Chopin Script", sans-serif;
 }
-h2 {
-	font-weight: 100;
+.intro {
+	color: white;
 }
 h3 {
 	margin: 22px 0 22px;
+}
+h3, h2, h4 {
+	color: grey;
+	font-family:"CyberCaligraphic", Chopin Script, sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+}
+p {
+	color: orange;
 }
 .now {
 	width: 200px;
 	display: inline-block;
 	margin: 33px auto 33px;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	border-radius: 5px;
 	border: solid grey;
 }
+
+.row {
+	width: 100%;
+	background-color: white;
+	display: block;
+}
+.now:hover {
+	background-color: #293f50;
+}
+a {
+	color: white;
+}
 a:hover {
-	color: blue;
+	color: darkorange;
+}
+nav {
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 .position {
 	text-align: right;
 }
 .logo {
-	font-family: ;
 	float: left;
-	border-top:  solid darkred;
+	border-top:  solid darkorange;
 	clear: both;
 	padding-top: 22px;
+	margin-top: 0;
 }
 .btn {
 	text-align: right;
@@ -52,8 +81,11 @@ a:hover {
 	display: inline-block;
 	width: 30%;
 	vertical-align: top;
-
 }
 .foot {
 	text-align: left; 
+}
+.end {
+	text-align: right;
+	font-size: 10px;
 }
