@@ -51,7 +51,7 @@ html {
 }
 body {
 	background-color: #466368;
-	background: linear-gradient(to right bottom, #648880, #293f50);
+	background: linear-gradient(to right bottom, #1f4037, #99f2c8);
 	color: :#888;
 	font-size: 14px;
 	line-height: 150%;
@@ -73,7 +73,8 @@ h1 {
 	font-family:"breakaway", sans-serif;
 }
 .intro {
-	color: white;
+	color: #293f50;
+	font-size: 25px;
 }
 h3 {
 	margin: 22px 0 22px;
@@ -85,7 +86,10 @@ h3, h2, h4 {
 	font-weight: 100;
 }
 p {
-	color: orange;
+	color: grey;
+}
+.begin {
+	color: white;
 }
 .now {
 	width: 200px;
@@ -94,7 +98,7 @@ p {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-radius: 5px;
-	border: solid grey;
+	border: 2px solid white;
 }
 
 .row {
@@ -103,13 +107,13 @@ p {
 	display: block;
 }
 .now:hover {
-	background-color: #293f50;
+	background-color: darkgreen;
 }
 a {
 	color: white;
 }
 a:hover {
-	color: darkorange;
+	color: cyan;
 }
 nav {
 	border-radius: 10px;
@@ -121,13 +125,16 @@ nav {
 }
 .logo {
 	float: left;
-	border-top:  solid darkorange;
+	border-top:  solid #99f2c8;
 	line-height: 100%;
 	text-align: left;
 	clear: both;
 	padding-top: 22px;
 	margin-top: 0;
 	text-transform: uppercase;
+}
+.tagline {
+	font-size: 15px;
 }
 .btn {
 	text-align: right;
@@ -139,15 +146,30 @@ nav {
 }
 .col-2-3 {
 	display: inline-block;
-	width: 66.66%;
+	width: 65.66%;
+	clear: right;
+}
+
+.text2 {
+	text-align: left;
 }
 .contact {
 	display: block;
 	border: 2px solid grey;
 	margin-left: 30px;
 	margin-right: 30px;
+	margin-bottom: 30px;
 	margin-top: -70px;
-	padding-top: 70px;
+	padding-top: 90px;
+	padding-bottom: 10px;
+}
+.pic {
+	border-radius: 50%;
+}
+.details {
+	color: grey;
+	text-decoration: none;
+	float: left;
 }
 .foot {
 	text-align: left; 
@@ -155,5 +177,6 @@ nav {
 .end {
 	text-align: right;
 	font-size: 10px;
+	color: black !important;
 }
 
