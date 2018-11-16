@@ -100,7 +100,7 @@ nav {
 }*/
 .col-2-3 {
 	display: inline-block;
-	width: 50%;
+	width: 90%;
 	clear: right;
 }
 
@@ -145,7 +145,7 @@ nav {
 	margin-bottom: 0;
 }
 .layout2 {
-	width: 40%;
+	width: 100%;
 	margin-top: 2px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -162,7 +162,8 @@ fieldset {
 }
 table {
 	border-collapse: collapse;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	margin-left: 55px;
 }
 th,
 td {
